@@ -1,0 +1,8 @@
+unit_TESTS =  unit/Daemon.test unit/TopologyManager.test unit/VMManager.test
+factory_TESTS = 
+integration_TESTS =  integration/CommandRunner.test
+
+unit_Daemon_test_SOURCES = unit/testDaemon.cpp
+unit_TopologyManager_test_SOURCES = unit/testTopologyManager.cpp
+unit_VMManager_test_SOURCES = unit/testVMManager.cpp
+integration_CommandRunner_test_SOURCES = integration/testCommandRunner.cpp
